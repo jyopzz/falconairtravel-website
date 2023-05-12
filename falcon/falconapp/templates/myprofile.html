@@ -10,19 +10,19 @@
     </head>
     <body>
         <section id="sidebar">
-            <a href="admindash.html" class="brand">
+            <a href="{% url 'dash' %}" class="brand">
                 <i class='bx bxs-smile'></i>
                 <span class="text">Falcon-Admin</span>
             </a>
             <ul class="side-menu top">
                 <li >
-                    <a href="admindash.html">
+                    <a href="{% url 'dash' %}">
                         <i class='bx bxs-dashboard' ></i>
                         <span class="text">Dashboard</span>
                     </a>
                 </li>
                 <li class="active">
-                    <a href="myprofile.html">
+                    <a href="{% url 'mypro' %}">
                         <i class='bx bxs-shopping-bag-alt' ></i>
                         <span class="text">My Profile</span>
                     </a>
@@ -30,7 +30,7 @@
                 
                 
                 <li>
-                    <a href="developer.html">
+                    <a href="{% url 'deve' %}">
                         <i class='bx bxs-group' ></i>
                         <span class="text">Developer</span>
                     </a>
@@ -38,7 +38,7 @@
             </ul>
             <ul class="side-menu">
                 <li>
-                    <a href="#" class="logout">
+                    <a href="{% url 'logout' %}" class="logout">
                         <i class='bx bxs-log-out-circle' ></i>
                         <span class="text">Logout</span>
                     </a>

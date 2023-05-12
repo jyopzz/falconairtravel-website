@@ -17,3 +17,14 @@ def myprofile(request):
 def developer(request):
     return render(request,'developer.html')
     
+@login_required()
+def addreview(request):
+    return render(request,'addreview.html')
+
+@login_required()
+def removereview(request):
+    return render(request,'rmreview.html')
+
+@login_required()
+def updatereview(request):
+    return render(request,'upreview.html')

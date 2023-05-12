@@ -1,0 +1,325 @@
+/*start hearder*/
+
+#mu-hero {
+	background-image: url('image/home.jpg');
+	display: inline;
+	float: left;
+	width: 100%;
+	position: relative;
+	background-position: center center;
+	background-attachment: fixed;
+	-webkit-background-size: cover;
+	background-size: cover;
+    
+    
+}
+#mu-hero:after{
+	content: '';
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	height: 100%;
+	opacity: 0.84;
+	width: 100%;
+	z-index: 10;
+}
+
+.mu-hero-area {
+	display: inline;
+	float: left;
+	position: relative;
+	z-index: 99;
+	
+    
+}
+.mu-hero-featured-area {
+	display: inline;
+	float: left;
+	padding: 60px 0 150px;
+	width: 100%;
+}
+.mu-hero-featured-content {
+	display: inline;
+	float: right;
+	margin-top: 50px;
+	text-align: center;
+	width: 100%;
+    
+}
+
+.mu-hero-featured-content h1 {
+	font-size: 45px;
+	color: #fff;
+	font-weight: 700;
+	margin-bottom: 15px;
+}
+
+
+.mu-hero-featured-content p {
+	color: #fff;
+	font-size: 20px;
+	font-weight: 300;
+	line-height: 1.3;
+	letter-spacing: 1px;
+}
+
+.mu-hero-featured-content h2 {
+	color: #fff;
+	font-size: 24px;
+	margin-bottom: 12px;
+	font-weight: 400;
+	letter-spacing: 1px;
+	display: inline-block;
+}
+a:hover {
+    color: #070707;
+}
+
+.headerbtn {
+    display: inline-block;
+    border: 1px solid #1f1d1d;
+    background-color: #3dc8c1;
+    text-transform: uppercase;
+    font-size: 18px;
+    padding: 10px 20px;
+    border-radius: 25px;
+    margin-top: 30px;
+    font-family: math;
+    text-decoration: none;
+    color: white;
+}
+
+.navbar-brand{
+    font-family: math;
+    font-size: 30px;
+    
+}
+.navbar-nav{
+    
+    font-size: 18px;
+    font-family: serif;
+}
+.nav-link{
+    color: #fff;
+}
+.nav-link:hover{
+    color: aqua;
+}
+.para1{
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+/*end of header*/
+
+
+/*start about */
+
+.row-pb-lg {
+	padding-bottom: 6em !important; }
+  
+  .row-pb-md {
+	padding-bottom: 4em !important; }
+  
+  .row-pb-sm {
+	padding-bottom: 2em !important; }
+
+.aside-stretch {
+  background: #00BBF0; }
+  .aside-stretch:after {
+    position: absolute;
+    top: 0;
+    right: 100%;
+    bottom: 0;
+    content: '';
+    width: 360%;
+    background: #00BBF0; }
+  @media screen and (max-width: 768px) {
+    .aside-stretch {
+      background: transparent; }
+      .aside-stretch:after {
+        background: transparent;
+        display: none; } }
+
+.about-flex {
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+	-webkit-flex-wrap: wrap;
+	-moz-flex-wrap: wrap;
+	width: 100%; }
+.about-flex .col-one-forth {
+	width: 25%;
+	padding: 7em 4em 7em 0; }
+.about-flex .col-three-forth {
+		width: 75%;
+		padding: 7em 4em; }
+.about-flex .col-one-forth, .about-flex .col-three-forth {
+		display: inline-block; }
+@media screen and (max-width: 768px) {
+	.about-flex .col-one-forth, .about-flex .col-three-forth {
+		width: 100%;
+		padding: 4em 1em; } }
+.about-flex .aside-stretch {
+	position: relative; }
+.about-flex .aside-stretch:after {
+	position: absolute;
+	top: 0;
+	right: 100%;
+	bottom: 0;
+	content: '';
+	width: 360%;
+	background: #00BBF0; }
+.about-flex .about {
+		text-align: right; }
+@media screen and (max-width: 768px) {
+		.about-flex .about {
+			text-align: left; } }
+.about-flex .about h2 {
+		color: #fff;
+		text-transform: uppercase;
+		margin-bottom: 2em; }
+@media screen and (max-width: 768px) {
+		.about-flex .about h2 {
+			color: #000; } }
+.about-flex .about ul {
+		list-style: none; }
+.about-flex .about ul li {
+		margin-bottom: 8px; }
+.about-flex .about ul li a {
+		color: #fff; }
+@media screen and (max-width: 768px) {
+	    .about-flex .about ul li a {
+			color: #000; } }
+.img-responsive {
+				display: block;
+				max-width: 100%;
+				height: auto;
+				}		    
+.about-flex .about ul li a {
+	color: #000000;
+	text-decoration: none;
+	font-family: ui-rounded;
+    font-size: 18px;
+
+	}
+
+.about-flex .about ul li {
+    margin-bottom: 8px;
+    padding-top: 23px;
+}
+
+/*end about */
+/*start of reviews*/
+.carousel-inner{
+	
+	padding-top: 95px;
+	font-family: 'Times New Roman', Times, serif;
+	
+}
+.carousel-item{
+	padding-top: 50px;
+}
+/*end of reviews*/
+/*start of contact form*/
+.contact-form{
+    background: #fff;
+    margin-top: 10%;
+    margin-bottom: 5%;
+    width: 70%;
+	background: -webkit-linear-gradient(left, #572b9a, #8cb6e6);
+}
+.contact-form .form-control{
+    border-radius:1rem;
+}
+.contact-image{
+    text-align: center;
+	
+}
+
+.contact-image img{
+    border-radius: 6rem;
+    width: 11%;
+    margin-top: -3%;
+    
+}
+.contact-form form{
+    padding: 10%;
+}
+.contact-form form .row{
+    margin-bottom: -7%;
+}
+.contact-form h3{
+    margin-bottom: 8%;
+    margin-top: -10%;
+	font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    color: #ebebeb;
+}
+.contact-form .btnContact {
+    width: 50%;
+	
+    border: none;
+    border-radius: 1rem;
+    padding: 1.5%;
+    background: #4fae18;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+}
+.btnContactSubmit
+{
+    width: 50%;
+    border-radius: 1rem;
+    padding: 1.5%;
+    color: #fff;
+    background-color: #0062cc;
+    border: none;
+    cursor: pointer;
+}
+
+.form-group{
+	padding-bottom: 15px;
+}
+/*end of contact form*/
+/*start of footer*/
+.footer-copyright{
+	text-decoration: none;
+}
+.footer-contact a{
+	text-decoration: none;
+	color: #fff;
+}
+.footer-links a{
+	text-decoration: none;
+}
+  /*end of footer*/
+/*gotobutton start*/
+  #myBtn {
+	height: 30px;
+    width: 30px;
+	display: none; /* Hidden by default */
+	position: fixed; /* Fixed/sticky position */
+	bottom: 10px; /* Place the button at the bottom of the page */
+	right: 20px; /* Place the button 30px from the right */
+	z-index: 99; /* Make sure it does not overlap */
+	border: none; /* Remove borders */
+	outline: none; /* Remove outline */
+	background-color: rgb(82, 181, 234); /* Set a background color */
+	color: white; /* Text color */
+	cursor: pointer; /* Add a mouse pointer on hover */
+	padding: 1px; /* Some padding */
+	border-radius: 20px; /* Rounded corners */
+	font-size: 15px; /* Increase font size */
+  }
+  
+  #myBtn:hover {
+	background-color: #1c1a1a; /* Add a dark-grey background on hover */
+  }
+/*gotobutton end*/

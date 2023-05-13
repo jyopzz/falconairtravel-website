@@ -1,4 +1,4 @@
-from django.shortcuts import render
+from django.shortcuts import redirect, render
 from django.contrib.auth.decorators import login_required
 
 
@@ -11,7 +11,7 @@ def admindash(request):
 
 @login_required()
 def myprofile(request):
-    return render(request,'myprofile.html')
+    return redirect('password_change')
 
 @login_required()
 def developer(request):
@@ -28,3 +28,4 @@ def removereview(request):
 @login_required()
 def updatereview(request):
     return render(request,'upreview.html')
+
